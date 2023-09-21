@@ -10,17 +10,23 @@ Consigli del giorno:
 * Individuate gli elementi di cui avete bisogno per realizzare il programma.
 ===
 ## Procedimento Consegna
-- 1. HTML:
-aggiungi un elemento div con l'ID "numbers" che verrà utilizzato per mostrare i numeri.
+1. Dichiarazione delle Variabili e delle Costanti:
+Dichiariamo le variabili per memorizzare i numeri generati, i numeri inseriti dall'utente e i numeri indovinati, costanti per il numero totale di numeri da generare e il tempo di attesa prima che i numeri scompaiano.
 
-- 2. JS Dichiarazione delle variabili e delle costanti:
-creiamo un array vuoto dove verranno generati i numeri casuali
-e definiamo la costante del tempo
+2. Funzione per Generare Numeri Casuali:
+Crea una funzione per generare i numeri casuali. Utilizza un ciclo per generare 5 numeri univoci compresi tra 1 e 100 e memorizzali nell'array dei numeri generati.
 
-- 3. Funzione per generare i numeri casuali e mostrarli all'utente:
-creiamo una funzione che va a sovrascrivere nel Div il numero creato casualmente tramite ciclo FOR
+4. Funzione che fa scomparire i numeri generati casualmente dal video e funzione per avviare il prompt di inserimento poco dopo che i numeri siano scomparsi
 
-- 4. Funzione che fa scomparire i numeri generati casualmente dal video
+5. Funzione per Inserire i Numeri:
+Crea una funzione che richieda all'utente di inserire i numeri che ha memorizzato, uno alla volta. Memorizza questi numeri nell'array dei numeri inseriti dall'utente.
 
-- 5. Funzione per richiedere all'utente di inserire i numeri e verificare le risposte:
-IN PROGRESS
+6. Funzione per verificare quanti numeri sono stati indovinati.
+
+7. Funzione per confrontare i numeri inseriti dall'utente con quelli generati randomicamente.
+
+8. Aggiunta di un event listener per avviare il gioco al click del pulsante
+
+9. Due funzioni per nascondere e mostrare il pulsante di avvio al momento giusto.
+
+10. Funzione per resettare la visualizzazione
